@@ -300,6 +300,10 @@ body{
     align-items: center;
 }
 
+.p-cuotas{
+    font-size: .9rem;
+}
+
 .contacto-section{
     padding: 2rem;
 }
@@ -307,10 +311,5 @@ body{
 .contacto-section .redes-sociales{
     padding: 2.5rem 2rem;
 }
-
-
-
-
-
 
 }
