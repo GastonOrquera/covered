@@ -18,8 +18,9 @@ html{
 
 
 header{
-    background-color: rgba(211, 200, 0, 0.829);
+    /* background-color: rgba(211, 200, 0, 0.829); */
     display: flex;
+    background-color: #9ab8ba;
     align-items: center;
     justify-content: space-between;
     padding: 2rem 6rem;
@@ -50,7 +51,8 @@ header{
 /* main */
 
 body{
-    background-color: rgb(255, 247, 142);
+    background-color: #055256;
+    /* background-color: rgb(255, 247, 142); */
 }
 
 /* .fondo-section{
@@ -99,9 +101,12 @@ body{
 
 .boton-section .boton-covered:hover{
     /* background-color: rgb(255, 131, 36); */
-    background-color: rgba(211, 200, 0, 0.829);
+    /* background-color: rgba(211, 200, 0, 0.829);
+    color: rgb(20, 20, 20); */
+    /* background-color: #def9fa; */
+    background-color: #9ab8ba;
+    color: #13282b;
     transition: 2s;
-    color: rgb(20, 20, 20);
 }
 
 .covered-section{
@@ -132,12 +137,14 @@ body{
 }
 
 .triagle-span{
-    color: rgba(211, 200, 0, 0.929);
+    /* color: rgba(211, 200, 0, 0.929); */
+    color: #13282b;
     font-size: 1.6rem;
 }
 
 .triangle{
-    color: rgba(211, 200, 0, 0.929);
+    /* color: rgba(211, 200, 0, 0.929); */
+    color: #13282b;
     font-size: 2rem;
 }
 
@@ -190,7 +197,8 @@ body{
 .contacto-section{
     padding: 2rem 6rem;
     text-align: center;
-    background-color: rgb(255, 247, 142);
+    /* background-color: rgb(255, 247, 142); */
+    background-color: #9ab8ba;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.33);
 }
 
@@ -212,19 +220,25 @@ body{
     font-size: 3.2rem;
 }
 
-.redes-sociales .bi-facebook:hover{
+.bi-one,
+.bi-two,
+.bi-three{
+    color: rgb(20, 20, 20);
+}
+
+.redes-sociales .bi-one:hover{
     color: rgba(36, 36, 255, 0.938);
     cursor: pointer;
     transition: 1.4s;
 }
 
-.redes-sociales .bi-instagram:hover{
+.redes-sociales .bi-two:hover{
     color: rgba(173, 25, 25, 0.835);
     cursor: pointer;
     transition: 1.4s;
 }
 
-.redes-sociales .bi-whatsapp:hover{
+.redes-sociales .bi-three:hover{
     color: rgb(0, 113, 21);
     cursor: pointer;
     transition: 1.4s;
